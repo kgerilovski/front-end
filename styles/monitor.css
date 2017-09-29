@@ -1,0 +1,216 @@
+@font-face {
+    font-family: Prida65;
+    src: url(fonts/Prida65.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: #f4f2d9;
+}
+
+::-moz-placeholder {
+    padding: 1em;
+}
+
+::-webkit-input-placeholder {
+    padding: 1em;
+}
+
+#map {
+    height: 25em;
+    border: 0.5em solid red;
+    box-shadow: 0 0.5em 0.5em #888888;
+    margin-bottom: 1em;
+}
+
+#nav-container {
+    height: 17em;
+    background-image: url("/images/top.png");
+    background-repeat: repeat-x;
+    padding-top: 1em;
+    padding-left: 4em;
+    padding-right: 0;
+    margin-right: 0em;
+}
+
+#nav-container h2 {
+    font-family: Prida65;
+    font-style: bold;
+    margin-top: 1em;
+}
+
+#description {
+    clear: both;
+}
+
+#club-profile {
+    font-family: Prida65;
+    color: #442917;
+}
+
+.main-info p {
+    font-family: Prida65, 'Times New Roman';
+    color: #938c7b;
+    font-style: italic;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+#menu-content {
+    background-image: url("/images/menu.png");
+    color: #eee4ba;
+    padding: 0;
+    height: 4em;
+}
+
+#menu-content ul {
+    float: right;
+    padding-right: 4em;
+}
+
+#register,
+#menu-content ul li a {
+    color: #eee4ba;
+    font-family: Prida65, 'Times New Roman';
+    text-transform: uppercase;
+}
+
+#register {
+    color: #938c7b;
+}
+
+#user-links a {
+    color: white;
+    font-family: Prida65, 'Times New Roman';
+    text-transform: uppercase;
+}
+
+#menu-content ul li :hover {
+    background-color: transparent;
+    color: white;
+}
+
+#logout {
+    margin-top: -10em;
+}
+
+.butt {
+    background-image: url("/images/buttonsmall.png");
+    background-color: transparent;
+    border: none;
+    background-repeat: no-repeat;
+    height: 2.5em;
+    width: 6.5em;
+    outline: none;
+}
+
+#search-clubs {
+    padding: 0;
+}
+
+.butt span {
+    color: white;
+    font-family: Prida65, 'Times New Roman';
+    text-align: center;
+    font-size: 0.9em;
+}
+
+#login-div {
+    height: 2em;
+}
+
+.input-form {
+    background-image: url("/images/input-field.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    height: 2.5em;
+    width: 12em;
+    padding: 1em;
+    outline: none;
+}
+
+#username-register {
+    margin-top: 1em;
+}
+
+.col-md-3 {
+    padding: 0;
+}
+
+#login-inline {
+    margin-right: 12em;
+}
+
+.club {
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.bottom-align-text {
+    vertical-align: bottom;
+}
+
+.star-image {
+    height: 2em;
+    display: inline-block;
+}
+
+.top-margin {
+    margin-top: 1em;
+}
+
+.club-profile-image {
+    display: block;
+    height: 20em;
+    margin-bottom: 2em;
+}
+
+.club-image {
+    margin-left: 1.5em;
+    padding: 0;
+    box-shadow: 0 0.5em 0.5em #888888;
+    height: 10em;
+}
+
+.club-image img {
+    border: 0.5em solid white;
+    height: 10em;
+}
+
+.comment-section {
+    margin: 2em;
+}
+
+.club-list h3 {
+    margin-top: 2em;
+}
+
+.club-profile-main {
+    display: inline-block;
+}
+
+.comment {
+    padding: 1.5em;
+}
+
+.comment-content {
+    margin-bottom: 1.2em;
+}
+
+.add-comment-form {
+    margin-top: 2em;
+}

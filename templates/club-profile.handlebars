@@ -1,0 +1,34 @@
+<div class="container club-profile" data-id="{{_id}}">
+     <div>
+         <img src="{{image._downloadURL}}" class="club-profile-image" alt="">
+     </div>
+     <div class="row">
+         <div class="club-profile-main col-md-4 center-block">
+             <h4><strong>{{name}}</strong></h4>
+             <p class="bigger-font lead">{{type}}</p>
+ 
+             <div class="club-description">
+                 <p class="bg-warning bigger-font">{{description.description}}</p>
+             </div>
+ 
+             <div class="bottom-align-text">
+                 <p>
+                     Music: {{#each genre}}
+                     <span> {{this}} </span> {{/each}}
+                 </p>
+                 <p class="top-margin">{{city}}</p>
+             </div>
+         </div>
+         <div class="club-profile-side col-md-4 center-block">
+             <div class="rating-info">
+                 <img src="./images/star.png" class="img-responsive star-image">
+                 <span>{{rating}}/5 stars</span>
+             </div>
+             <button class="add-to-favourites butt"><span>My favourites</span></button>
+         </div>
+     </div>
+     <div id="comment-section" class="comment-section">
+       
+     </div>
+  </div>
+ </div>

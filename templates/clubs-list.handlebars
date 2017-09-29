@@ -1,0 +1,35 @@
+ {{#if data.length}}
+ {{#each data}}
+     <li class="club-list " data-id="{{_id}}">
+       <h3><a href="#/club/{{_id}}" id="club-profile">{{name}}</a></h3>
+  <div class="row">
+       <div class="club-image col-md-2 col-xs-6">
+         <img src="{{image._downloadURL}}"id="img-list" class="img-responsive center-block" alt="">
+       </div>
+       <div class="main-info top-margin col-md-6 col-xs-3">
+        
+         <p class="bigger-font">{{type}}</p>
+         <div class="bottom-align-text">
+           <p class="hidden">
+             Music:
+             {{#each genre}}
+               <span> {{this}} </span>
+             {{/each}}
+           </p>
+           <p class="top-margin">{{city}}</p>
+         </div>
+       </div>
+  
+       <div class="col-md-4 col-xs-3">
+         <div class="rating-info">
+           <img src="./images/star.png" class="img-responsive star-image">
+           <span>{{rating}}/5 stars</span>
+        </div>
+         <button class="add-to-favourites butt"><span>My favourites</span></button>
+       </div>
+     </div>  
+     </li>
+     {{/each}} 
+     {{else}}
+       <h3>No clubs to show!</h3>
+     {{/if}}

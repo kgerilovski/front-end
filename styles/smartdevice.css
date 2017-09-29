@@ -1,0 +1,248 @@
+@font-face {
+    font-family: Prida65;
+    src: url(fonts/Prida65.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: #f4f2d9;
+}
+
+::-moz-placeholder {
+    padding: 1em;
+}
+
+::-webkit-input-placeholder {
+    padding: 1em;
+}
+
+#map {
+    height: 25em;
+    border: 0.5em solid red;
+    box-shadow: 0 0.5em 0.5em #888888;
+    margin-bottom: 1em;
+}
+
+#nav-container {
+    height: 17em;
+    background-image: url("/images/top.png");
+    background-repeat: repeat-x;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 0;
+    margin-right: 0em;
+}
+
+#nav-container h2 {
+    font-family: Prida65;
+    font-style: bold;
+    font-size: 1.7em;
+    float: left;
+    margin-top: 0;
+}
+
+#description {
+    float: left;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+#navbar {
+    margin: 0;
+}
+
+#navbar ul {
+    list-style-type: none;
+}
+
+#navbar li {
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#navbar li a {
+    display: block;
+    text-align: center;
+}
+
+#menu-content {
+    background-color: grey;
+    color: #eee4ba;
+    padding: 0;
+    margin-top: 0.5em;
+    height: 3em;
+}
+
+#logout {
+    float: right;
+    margin-top: 1em;
+}
+
+#club-profile {
+    font-family: Prida65;
+    color: #442917;
+}
+
+.main-info p {
+    font-family: Prida65, 'Times New Roman';
+    color: #938c7b;
+    font-style: italic;
+}
+
+#register,
+#menu-content ul li a {
+    color: #eee4ba;
+    font-family: Prida65, 'Times New Roman';
+    text-transform: uppercase;
+}
+
+#register {
+    color: #938c7b;
+}
+
+#user-links a {
+    color: white;
+    font-family: Prida65, 'Times New Roman';
+    text-transform: uppercase;
+}
+
+#menu-content ul li :hover {
+    background-color: transparent;
+    color: white;
+}
+
+.butt {
+    background-image: url("/images/buttonsmall.png");
+    background-color: transparent;
+    border: none;
+    background-repeat: no-repeat;
+    height: 2.5em;
+    width: 6.5em;
+    outline: none;
+}
+
+#search-clubs {
+    padding: 0;
+}
+
+.butt span {
+    color: white;
+    font-family: Prida65, 'Times New Roman';
+    text-align: center;
+    font-size: 0.9em;
+}
+
+#login-div {
+    height: 9em;
+    margin-left: 2em;
+}
+
+.input-form {
+    background-image: url("/images/input-field.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    height: 2.5em;
+    width: 12em;
+    padding: 1em;
+    outline: none;
+}
+
+#username-register {
+    margin-top: 1em;
+}
+
+#username,
+#password {
+    margin-bottom: 0.5em;
+}
+
+.col-md-3 {
+    padding: 0;
+}
+
+#login-inline {
+    margin-right: 12em;
+}
+
+.club-list {
+    align-items: center;
+    background-color: transparent;
+    padding-right: 0.7em;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.bottom-align-text {
+    vertical-align: bottom;
+}
+
+.star-image {
+    height: 2em;
+    display: inline-block;
+}
+
+.top-margin {
+    margin-top: 1em;
+}
+
+.club h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.club-profile-image {
+    display: block;
+    height: 12em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    margin-left: 0;
+    box-shadow: 0 0.5em 0.5em #888888;
+    border: 0.5em solid white;
+}
+
+#img-list {
+    display: block;
+    width: 100%;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    margin-left: 0;
+    padding-left: 0;
+    box-shadow: 0 0.5em 0.5em #888888;
+    border: 0.5em solid white;
+}
+
+.side-info {
+    clear: both;
+}
+
+.comment-section {
+    margin: 2em;
+}
+
+.club-profile-main {
+    display: inline-block;
+}
+
+.comment {
+    padding: 1.5em;
+}
+
+.comment-content {
+    margin-bottom: 1.2em;
+}
+
+.add-comment-form {
+    margin-top: 2em;
+}
