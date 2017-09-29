@@ -28,11 +28,32 @@
                         </ul>
                     </nav>
                 </div>
-                <div>
-                    <h2>Night clubs in Sofia</h2>
-                    <div id="description">
-                        Browse the night clubs in sofia and rate them!
-                    </div>
+                <body><div class="slideshow-container">
+                         <div class="mySlides fade">
+                            <div class="numbertext">1 / 3</div>
+                            <img src="./images/dj.jpg" style="width:100%">
+                            <div class="text">Search for night clubs in Sofia!</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 3</div>
+                            <img src="./images/tiesto.jpg" style="width:100%">
+                            <div class="text">Rate and comment the night clubs!</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="./images/club.jpg" style="width:100%">
+                        <div class="text">Ran out of ideas!</div>
+                        </div>
+        </div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
                 </div>
             </div>
 
@@ -64,6 +85,7 @@
     </main>
 
     <!--Scripts-->
+    <script src="./js/helpers/carousel.js"></script>
     <script src="./js/helpers/map.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyiMrM7Ebmf5N5fsFrb9WLCR1stnBHddw&callback=initMap&libraries=places,visualization" async defer></script>
 
@@ -83,4 +105,4 @@
     </script>
 
 </body>
-<html>
+</html>
