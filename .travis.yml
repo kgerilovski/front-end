@@ -1,9 +1,16 @@
 language: node_js
 node_js:
- — “8.5.0”
+   - 6.9
+ 
+branches:
+   only:
+      - master
+
+before_script:
+   - npm install -g firebase-tools
+
 script:
- — npm run start
-install:
- — npm install -g firebase-tools
+   - npm run start
+
 after_success:
- — firebase deploy — token $FIREBASE_TOKEN
+   - firebase deploy --token $FIREBASE_TOKEN
