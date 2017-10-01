@@ -4,11 +4,13 @@
     "description": "",
     "main": "",
     "scripts": {
-        "start": "live-server ."
+        "start": "node server.js"
     },
     "author": "Kristiyan Gerilovski",
     "license": "ISC",
     "dependencies": {
+        "connect": "^3.6.5",
+        "serve-static": "^1.13.1",
         "systemjs": "^0.20.2",
         "systemjs-plugin-babel": "0.0.19"
     }
