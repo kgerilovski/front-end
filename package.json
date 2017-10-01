@@ -4,7 +4,7 @@
     "description": "",
     "main": "",
     "scripts": {
-         "start" : "live-server ."
+        "start": "live-server ."
     },
     "author": "Kristiyan Gerilovski",
     "license": "ISC",
