@@ -4,9 +4,7 @@
     "description": "",
     "main": "",
     "scripts": {
-        "start": "node server.js",
-        "build:dev": "firebase serve",
-        "deploy": "firebase deploy"
+        "start": "node server.js"
     },
     "author": "Kristiyan Gerilovski",
     "license": "ISC",

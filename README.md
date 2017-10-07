@@ -6,4 +6,4 @@ App is hosted in firebase.
    https://github.com/kgerilovski/front-end
 
  - Cloud link:
-   https://night-clubs-11d1e.firebaseapp.com/
+   https://night-clubs.herokuapp.com/
